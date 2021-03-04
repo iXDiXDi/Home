@@ -1,0 +1,100 @@
+body {
+    margin: 0 auto;
+    background-color: green;
+}
+.home {
+    position: fixed;
+    top: 10%;
+    left: 30%;
+}
+.floor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    padding: 50px;
+}
+.floor:last-child {
+    padding-bottom: 0;
+}
+.roof {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 250px solid black;
+    }
+.window {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.windowRoof {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    top: 90px;
+    left: -60px;
+}
+.rama1 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+}
+.rama2 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: yellow;
+}
+.rama3 {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+}
+.rama4 {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: yellow;
+}
+
+.door2 {
+    background-color: gray;
+    width: 100px;
+}
+.door {
+    width: 100px;
+    background-color: red;
+}
+.door:hover {
+    background-color: black;
+}
+.hole {
+    height: 120px;
+    width: 120px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    border: 30px solid black;
+    z-index: 9;
+    top: 60px;
+    left: -90px;
+}
